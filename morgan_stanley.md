@@ -1,13 +1,13 @@
-# 🏦 Morgan Stanley — Real-World Data Engineering Challenges (25 LPA | 5+ YOE)
+# 🏦 Morgan Stanley - Real-World Data Engineering Challenges (25 LPA | 5+ YOE)
 
 ### 🧠 Overview
-Morgan Stanley’s interviews revolve around **system design, failure handling, and large-scale optimization** — testing how you think in production.
+Morgan Stanley’s interviews revolve around **system design, failure handling, and large-scale optimization** - testing how you think in production.
 
 ---
 
 ## ⚙️ Core Scenarios
 1️⃣ Design a **daily data flow** from CSVs, APIs, and databases into a warehouse.  
-2️⃣ Investigate **incorrect analytics data** — debugging end-to-end lineage.  
+2️⃣ Investigate **incorrect analytics data** - debugging end-to-end lineage.  
 3️⃣ Handle **frequent updates** efficiently in terabyte-scale datasets.  
 4️⃣ Diagnose **slow Spark jobs** (joins, partitions, caching).  
 5️⃣ Integrate **real-time events** into a batch system.  
@@ -30,3 +30,4 @@ Morgan Stanley’s interviews revolve around **system design, failure handling, 
 ## 💡 Takeaway
 Morgan Stanley expects **architects, not coders.**  
 They test **data reliability under pressure**, **pipeline debugging**, and **system thinking across environments.**
+
