@@ -2,8 +2,7 @@
 
 ### 💡 The Modern Data Engineer’s Thinking Model
 
-Great data engineers don’t just move data —  
-they **design systems that evolve gracefully**.
+Great data engineers don’t just move data - they **design systems that evolve gracefully**.
 
 ---
 
@@ -27,5 +26,5 @@ they **design systems that evolve gracefully**.
 ---
 
 ### 💬 Leadership Note
-Data Engineering isn’t about Spark or ADF —  
-it’s about **engineering reliability at business velocity.**
+Data Engineering isn’t about Spark or ADF - it’s about **engineering reliability at business velocity.**
+
