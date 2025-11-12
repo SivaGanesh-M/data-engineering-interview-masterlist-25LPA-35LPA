@@ -23,5 +23,6 @@ Coforge focuses heavily on **hands-on PySpark, ADF, and Delta Lake** implementat
 ---
 
 ## 💡 Takeaway
-Coforge interviews reward **implementation clarity and PySpark fluency** — not just theory.  
+Coforge interviews reward **implementation clarity and PySpark fluency** - not just theory.  
 You’re tested on **practical efficiency and ADF workflow design.**
+
