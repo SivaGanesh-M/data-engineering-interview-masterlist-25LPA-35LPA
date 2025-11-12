@@ -1,112 +1,175 @@
+<!-- 
+Real Data Engineering Interview Questions 2025 | Data Engineer Interview Preparation Guide (25–35 LPA) | Walmart, HSBC, KPMG, Morgan Stanley, Coforge | PySpark, Databricks, Kafka, Azure Data Factory | Curated by Siva M 
+-->
+
 # 📘 Data Engineering Interview Masterlist (25–35 LPA+)
 
-Curated by SIVAGANESH M
-💼 Software Engineer @ Wipro | Cloud | DevOps | AI | Data Systems | Thought Leadership  
+> **Real Data Engineering Interview Questions (2025 Edition)**  
+> A curated compilation of 60+ *real-world* **Data Engineer Interview Questions** asked by  
+> **Walmart**, **HSBC**, **KPMG**, **Morgan Stanley**, and **Coforge** -  
+> covering **PySpark**, **Databricks**, **Kafka**, **Azure Data Factory (ADF)**, and **Data Lake Design.**
 
 ---
 
-### 🧠 About This Repository
-This repository compiles **real-world Data Engineering interview questions** and **architecture challenges** shared publicly by professionals across:  
+## 🧭 Why This Repository Exists
 
-🏢 **Walmart** · 💼 **HSBC** · ☁️ **KPMG** · 🏦 **Morgan Stanley** · 🧩 **Coforge**  
+Most engineers prepare for *syntax-level* questions.  
+But top companies test how you **design, debug, and recover real-world systems.**
 
-It’s designed for engineers preparing for **25–35 LPA+ roles**, with a focus on:  
-- **System Design Thinking**  
-- **Data Reliability & Observability**  
-- **Schema Evolution**  
-- **Scalable Architecture Patterns**  
-- **Cloud-Native Data Engineering**
+This repository is built to help engineers preparing for **25–35 LPA+ Data Engineering roles** develop *system design thinking* - not just tool fluency.  
 
----
-
-### ⚙️ Why This Repository Exists
-Modern data interviews don’t test your syntax —  
-they test **how you think in production.**
-
-This collection helps engineers:
-- Build architecture reasoning  
-- Practice real debugging and reliability questions  
-- Learn how to **explain systems like an architect**  
-- Align technical depth with business outcomes  
+It includes categorized questions by companies and technologies that mirror **real production challenges**:
+- Data reliability under pressure  
+- Schema evolution and observability  
+- Pipeline recovery and optimization  
+- Cross-functional collaboration and ownership  
 
 ---
 
-### 🏗️ Repository Structure
+## 🏷️ Table of Contents
 
-| File | Description |
-|------|--------------|
-| [`walmart.md`](./walmart.md) | Real-world questions from 35 LPA Walmart interview rounds |
-| [`hsbc.md`](./hsbc.md) | HSBC enterprise data architecture and reliability questions |
-| [`kpmg.md`](./kpmg.md) | Azure-based data design & CDC problem scenarios |
-| [`morgan_stanley.md`](./morgan_stanley.md) | Production-grade pipeline & debugging questions |
-| [`coforge.md`](./coforge.md) | PySpark, Delta Lake, and ADF implementation-level questions |
-| [`architecture_mindset.md`](./architecture_mindset.md) | The thinking model for data system design |
-| [`action_plan.md`](./action_plan.md) | Complete preparation roadmap for senior data roles |
-
----
-
-### 💡 How to Use
-1️⃣ **Start** with `architecture_mindset.md` — it defines how top engineers think.  
-2️⃣ **Explore** each company file — compare design and debugging themes.  
-3️⃣ **Apply** insights using the `action_plan.md` as your structured roadmap.  
-4️⃣ **Reflect** — understand not just *what* to answer, but *how* to think.  
+- [Walmart](#walmart)
+- [HSBC](#hsbc)
+- [KPMG](#kpmg)
+- [Morgan Stanley](#morgan-stanley)
+- [Coforge](#coforge)
+- [Action Plan](#action-plan)
+- [Architecture Mindset](#architecture-mindset)
+- [Related Topics](#related-topics)
+- [How to Contribute](#how-to-contribute)
+- [Credits](#credits)
 
 ---
 
-### 🧩 Key Themes Covered
-- Real-Time Data Pipeline Design  
-- Schema Evolution & CDC  
-- PySpark & Delta Lake Performance Optimization  
-- ADF Pipeline Automation  
-- Data Quality, Observability & Lineage  
-- Cloud Migration Strategy (AWS / Azure / GCP)  
-- Handling Failures, Skew, and Cost Optimization  
+## 🏢 Walmart (35 LPA | Referral)
+
+- Design a real-time pipeline for fraud detection on millions of transactions  
+- Guarantee data consistency between OLTP and analytical systems  
+- Handle duplicate records in critical production datasets  
+- Manage schema evolution for breaking producer changes  
+- Debug Spark jobs that perform slower in production  
 
 ---
 
-### 🔍 Sample Focus Questions
-> “How would you debug a Spark job running 10x slower in production?”  
-> “How do you ensure schema evolution doesn’t break downstream systems?”  
-> “How would you backfill data safely in a live pipeline?”  
-> “How do you secure PII in analytical workloads?”  
+## 💳 HSBC (26–30 LPA)
+
+- Design real-time financial data pipelines  
+- Ensure data consistency across distributed systems  
+- Debug slow-running Spark jobs  
+- Manage schema evolution and downstream dependencies  
+- Handle and prevent duplicate data in production  
+- Design monitoring and observability systems  
 
 ---
 
-### 🧠 Learning Mindset
-This repository promotes a simple philosophy:  
-> **Tools change every year. Thinking lasts a career.**
+## ☁️ KPMG India (18 LPA | Azure Stack)
 
-Strong data engineers aren’t tool experts — they are **system thinkers** who can scale reliability, automation, and value.  
-
----
-
-### 🧾 Disclaimer
-All questions are compiled from **publicly available discussions, candidate experiences, and educational resources**.  
-This repository is **for learning and professional development only** and is **not affiliated with any organization.**
+- Batch + streaming ingestion with ADF → ADLS → Synapse  
+- Incremental load (CDC) using watermark/change tracking  
+- Handle data skew in Spark jobs  
+- Fix too many small Parquet files  
+- Root cause slow batch jobs and partial ADF loads  
 
 ---
 
-### 🤝 Contribute
-If you’d like to contribute or share verified interview scenarios:  
-- Fork this repo  
-- Add your insights  
-- Submit a pull request  
+## 🧩 Coforge (25 LPA | 4+ YOE)
 
-Every contribution helps other engineers prepare better.  
-
----
-
-### 🌟 Support
-If this repository helps you —  
-⭐ **Star it** to support and help others discover it too!  
+- Identify and delete duplicate rows while keeping one original  
+- Process large CSVs in chunks using Python  
+- Flatten nested JSON to DataFrame  
+- Design PySpark upsert into Delta Tables  
+- Build Medallion (Bronze–Silver–Gold) Architecture in Databricks  
+- Manage daily table ingestion via ADF  
 
 ---
 
-### 🔖 License
-This repository is licensed under the [MIT License](./LICENSE).  
-You’re free to share, adapt, and use the material for **educational purposes** with proper credit.
+## 🏦 Morgan Stanley (25 LPA | 5+ YOE)
+
+- Design data ingestion from multiple sources (CSV, API, DB)  
+- Investigate incorrect analytics data end-to-end  
+- Track frequent updates in terabyte-scale datasets  
+- Integrate real-time events into batch systems  
+- Implement metadata-driven, dynamic pipelines  
+- Plan on-prem to cloud data migration  
 
 ---
 
-> *“Build systems that think, learn, and scale.”*  
-> — **Sivaganesh M.**
+## 🎯 Action Plan for Data Engineer Interview Preparation (2025)
+
+✅ Master **PySpark**, **Kafka**, **ADF**, **Databricks**, and **Delta Lake**  
+✅ Learn to design for **data consistency**, **schema evolution**, and **lineage**  
+✅ Practice **root cause debugging** using Spark UI and metrics  
+✅ Communicate **trade-offs and decisions** like a senior architect  
+
+---
+
+## 🧠 Architecture Mindset
+
+Top Data Engineers aren’t measured by tools - they’re trusted for **how they think when systems fail.**  
+
+A strong Data Engineer:  
+- Debugs like an **SRE (Site Reliability Engineer)**  
+- Designs like a **Data Architect**  
+- Communicates like a **Business Partner**  
+
+🧩 *In production environments, failure handling = credibility.*
+
+---
+
+## 🔍 Related Topics
+
+This repository helps you prepare for **Data Engineer interviews** in 2025 - covering topics like:  
+- Real-time data pipelines  
+- Spark optimization & shuffle debugging  
+- Kafka stream processing  
+- Azure Data Factory orchestration  
+- Databricks performance tuning  
+- Cloud Data Engineering on AWS & Azure  
+
+Targeted for professionals aiming **25–35 LPA roles** at top tech enterprises like **Walmart**, **HSBC**, and **Morgan Stanley**.
+
+---
+
+## 🌐 How to Contribute
+
+Contributions welcome!  
+If you’ve recently faced **Data Engineering interview rounds**, you can:
+1. Fork this repository  
+2. Add new questions or insights  
+3. Submit a Pull Request  
+
+Your contributions help the community learn from *real-world experience.*
+
+---
+
+## 📈 Repository Stats & Badges
+
+![GitHub stars](https://img.shields.io/github/stars/SivaGanesh-M/data-engineering-interview-masterlist-25LPA-35LPA?style=social)
+![GitHub forks](https://img.shields.io/github/forks/SivaGanesh-M/data-engineering-interview-masterlist-25LPA-35LPA?style=social)
+![GitHub views](https://komarev.com/ghpvc/?username=SivaGanesh-M&repo=data-engineering-interview-masterlist-25LPA-35LPA)
+
+---
+
+## 🧩 Credits
+
+Curated & maintained by SIVA M 
+💼 Software Engineer @ Wipro | Cloud, DevOps & AI-driven Systems  
+🚀 Building Enterprise Data Systems that Think, Learn & Scale  
+
+---
+
+## 🧭
+
+Real Data Engineering Interview Questions 2025  
+Data Engineer Interview Preparation  
+Walmart Data Engineer Interview  
+HSBC Data Engineering Questions  
+KPMG Azure Data Engineer  
+Morgan Stanley Big Data Interview  
+Coforge PySpark Databricks ADF Interview  
+Data Lake Architecture | Cloud Data Engineering | System Design | Spark Optimization
+
+---
+
+⭐ If this repository helped you prepare - star it, share it, and help others learn.  
+Let’s build a community of engineers who design reliable systems. 🚀
