@@ -1,6 +1,7 @@
 <!-- 
-Real Data Engineering Interview Questions 2025 | Data Engineer Interview Preparation Guide (25–35 LPA) | Walmart, HSBC, KPMG, Morgan Stanley, Coforge | PySpark, Databricks, Kafka, Azure Data Factory | Curated by Siva M 
+Real Data Engineering Interview Questions & Experiences 2025 | Data Engineer Interview Preparation Guide (25–35 LPA) | Walmart Data Engineer Interview Experience | HSBC | KPMG | Morgan Stanley | Coforge | PySpark | Databricks | Kafka | Azure Data Factory | Curated by Sivaganesh M 
 -->
+
 
 # 📘 Data Engineering Interview Masterlist (25–35 LPA+)
 
@@ -160,13 +161,12 @@ Curated & maintained by SIVA M
 
 ## 🧭
 
-Real Data Engineering Interview Questions 2025  
-Data Engineer Interview Preparation  
-Walmart Data Engineer Interview  
-HSBC Data Engineering Questions  
-KPMG Azure Data Engineer  
-Morgan Stanley Big Data Interview  
-Coforge PySpark Databricks ADF Interview  
+Walmart Data Engineer Interview Experience  
+HSBC Data Engineering Interview Questions  
+KPMG Azure Data Engineer Interview Experience  
+Morgan Stanley Big Data Engineer Interview Questions  
+Coforge PySpark Databricks Interview  
+Real Data Engineering Interview Preparation 2025
 Data Lake Architecture | Cloud Data Engineering | System Design | Spark Optimization
 
 ---
