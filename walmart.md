@@ -1,4 +1,4 @@
-# 🏢 Walmart — Data Engineer (35 LPA | Referral)
+# 🏢 Walmart - Data Engineer (35 LPA | Referral)
 
 ### 🧠 Overview
 Walmart’s data engineering interviews emphasize **real-time processing, scalability, and reliability** - especially for financial and retail-scale workloads.
@@ -33,4 +33,5 @@ Walmart’s data engineering interviews emphasize **real-time processing, scalab
 
 ## 💡 Key Takeaway
 Walmart tests your ability to think like a **system architect under load** - balancing **reliability, data quality, and performance**.
+
 
